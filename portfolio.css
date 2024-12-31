@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navbar */
+  header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header nav h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  header nav ul li a:hover {
+    color: #e67e22;
+  }
+  
+  /* Profile Image */
+  img {
+    display: block;
+    max-width: 150px;
+    margin: 30px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    background-color: #ffeebf;
+    border-radius: 8px;
+    max-width: 900px;
+  }
+  
+  .content-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  section h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  section a {
+    color: rgb(0, 174, 255);
+  }
+  
+  section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 20px;
+  }
+  
+  ul li h3 {
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  ul li p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
